@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "rules": {
+      "semi": "off",
+      "@typescript-eslint/no-explicit-any": "off"
+    }
+  }
+  
